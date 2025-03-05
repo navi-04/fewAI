@@ -1,0 +1,24 @@
+.welcome-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .welcome-container h1 {
+    color: #4CAF50;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .welcome-container p {
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+  }
+  
