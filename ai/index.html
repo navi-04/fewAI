@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chat Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="model-selector">
+      <label for="model-select">Select AI Model:</label>
+      <select id="model-select">
+        <option value="gpt-4">GPT-4</option>
+        <option value="gpt-3.5">GPT-3.5</option>
+        <option value="claude">Claude</option>
+        <option value="llama">Llama</option>
+        <option value="gemini">Gemini</option>
+      </select>
+    </div>
+    
+    <div id="chat-output"></div>
+    
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Message AI...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
